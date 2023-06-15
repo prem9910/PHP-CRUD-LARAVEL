@@ -22,7 +22,7 @@
    </tr>  
    @foreach($mydata as $udata)
    <tr>
-      <td>{{$udata['id']}}</td>
+      <td>{{$udata['name']}}</td>
       <td>{{$udata['email']}}</td>
       <td>{{$udata['city']}}</td>
       <td>
